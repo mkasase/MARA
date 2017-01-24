@@ -38,6 +38,10 @@ import storage.FileQuerying;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
+/**
+*@param
+
+*/
 
 public class Retrieving 
 {
@@ -203,7 +207,7 @@ public class Retrieving
 	}
 	
 	
-	
+	//The method create map application in new file while printing out the error message if input incorrectly 
 	public static void createAppsMap()
 	{
 		try
@@ -224,6 +228,7 @@ public class Retrieving
 		}
 	}
 	
+	//
 	public static ArrayList<Review> retrieveReviewsMSR(String fileName)
 	{
 		ArrayList<Review> revs = new ArrayList<Review>();	
