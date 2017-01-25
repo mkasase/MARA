@@ -172,7 +172,7 @@ public class Retrieving
 	       
 	}*/
 	
-	//the method writes the processed reviews of an application in a tab delimited file
+	//@para this method writes the processed reviews of an application in a tab delimited file
 	public static void storeReviews(ArrayList<Review> revs, String fileName)
 	{
 		
@@ -204,7 +204,8 @@ public class Retrieving
 	
 	
 	
-	public static void createAppsMap()
+		
+/	public static void createAppsMap()
 	{
 		try
 		{
